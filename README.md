@@ -47,3 +47,92 @@ The project combines an informational website with a simple online store. It inc
 ---
 
 ## Project Structure
+
+```
+v1.8/
+│── index.php
+│── cfg.php
+│── admin/
+│   └── admin.php
+│── img/
+│── css/
+│── js/
+```
+
+---
+
+## Installation
+
+1. Install XAMPP or equivalent local server  
+2. Copy the project directory to:
+
+```
+C:\xampp\htdocs\v1.8
+```
+
+3. Start services:
+- Apache
+- MySQL
+
+4. Open in browser:
+
+```
+http://localhost/v1.8
+```
+
+---
+
+## Database Setup
+
+Create database:
+
+```sql
+CREATE DATABASE moja_strona;
+```
+
+Required tables:
+- `produkty2` – product data
+- `kategorie` – product categories
+- `page_list` – content pages
+
+---
+
+## Example Query
+
+```sql
+UPDATE produkty2
+SET ilosc_magazyn = ilosc_magazyn - 1
+WHERE id = 1;
+```
+
+---
+
+## Known Limitations
+
+- Basic authentication mechanism (no security hardening)
+- No validation of stock limits during purchase
+- Session-based cart (no persistence across sessions)
+- No transactional handling for orders
+
+---
+
+## Possible Improvements
+
+- Implement secure authentication and authorization
+- Add input validation and error handling
+- Introduce MVC architecture
+- Integrate payment processing
+- Improve UI/UX using a frontend framework
+
+---
+
+## Author
+
+Wiktoria Gawryszewska  
+Computer Science – University Project
+
+---
+
+## License
+
+This project is intended for educational purposes.
