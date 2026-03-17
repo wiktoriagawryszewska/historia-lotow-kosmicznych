@@ -44,8 +44,28 @@ The project combines an informational website with a simple online store. It inc
 - HTML5, CSS3
 - XAMPP (local development environment)
 
+---
 
+## Application Views
+
+The following screenshots present key functionalities of the system.
+
+### Product Management (Admin Panel)
+![Admin Panel](screenshots/admin.png)
+
+### Shopping Cart
+![Cart](screenshots/cart.png)
+
+### Product Listing
+![Shop](screenshots/shop.png)
+
+### Content Pages
+![History](screenshots/history.png)
+![Gallery](screenshots/gallery.png)
+![Future](screenshots/future.png)
 ## Author
+
+---
 
 Wiktoria Gawryszewska  
 Computer Science – University Project
